@@ -1,6 +1,4 @@
 # quantum_database
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 ## To do list
 
@@ -24,9 +22,3 @@
 
 1. Derive the AMOEBA+ initial parameters using poltype
   
-=======
-# 12323
->>>>>>> 1c5ec015bbe61a28c0f63580ea39cc1e3f19df69
-=======
-# 12323
->>>>>>> 1c5ec015bbe61a28c0f63580ea39cc1e3f19df69
