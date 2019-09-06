@@ -1,5 +1,12 @@
 # quantum_database
 
+## Compare dimers in (S108 database + dimer_added) and BioFragmentDatabase
+  - A24 & S22 has been checked 
+  - 
+  - 
+  - 
+  - 
+
 ## Compare molecules in S108 database and those of biomolecular fragments, including
   - 20 natural amino acids
   - unnatural amino acids
