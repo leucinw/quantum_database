@@ -25,7 +25,7 @@ def readLOG(LOG):
   while True:
     lines=f.readlines()
     if not lines:break
-    for n in xrange(len(lines)):
+    for n in range(len(lines)):
       if "Charge =" in lines[n]:
         charge=(lines[n].split()[2])   
       if "Multiplicity =" in lines[n]:
@@ -33,9 +33,9 @@ def readLOG(LOG):
       if "NAtoms=" in lines[n]:
         natoms=int(lines[n].split()[1])   
       if "Standard orientation" in lines[n]: # Coordinates from "Standard orientation" part
-        for m in xrange(5,5+natoms,1):
+        for m in range(5,5+natoms,1):
           data.append(lines[n+m][0:-1])
-  for i in xrange(natoms):
+  for i in range(natoms):
      coord.append(data[i-natoms])
   f.close()
   return coord,charge,multip
