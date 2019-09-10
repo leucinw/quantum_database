@@ -5,16 +5,18 @@
 # refAtomsFirstMol:
 # refAtomsSecondMol
 
-from geomFunction import *
-def f_translate(firstMolCoord, secondMolCoord, refAtomsFirstMol, refAtomsSecondMol, target_dist):
+from .geomFunction import *
+
+def f_translate(firstMolCoord, secondMolCoord, refAtomsFirstMol, refAtomsSecondMol, distance_frac):
   coord_1 = firstMolCoord 
   coord_2 = secondMolCoord
   refCoord_1 = []
   refCoord_2 = []
+  nfirst = len(firstMolCoord)
   for i in refAtomsFirstMol:
     refCoord_1.append(firstMolCoord[i-1])
   for i in refAtomsSecondMol:
-    refCoord_2.append(secondMolCoord[i-1])
+    refCoord_2.append(secondMolCoord[i-1-nfirst])
 
   geocent_1 = geom_center(refCoord_1)
   geocent_2 = geom_center(refCoord_2)
@@ -34,7 +36,8 @@ def f_translate(firstMolCoord, secondMolCoord, refAtomsFirstMol, refAtomsSecondM
                       geocent_2[1]- geocent_1[1], 
                       geocent_2[2]- geocent_1[2],]
 
-  dist_ratio = target_dist/geocent_dist
+  #dist_ratio = target_dist/geocent_dist
+  dist_ratio = distance_frac 
   trans_vector = [geocent_vector[0]*(dist_ratio-1.0),
                   geocent_vector[1]*(dist_ratio-1.0),
                   geocent_vector[2]*(dist_ratio-1.0), ]

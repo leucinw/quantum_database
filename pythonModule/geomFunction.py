@@ -4,7 +4,7 @@
 # input the two coordinates[x,y,z]
 def distance(coord1, coord2):
   dist = 0.0
-  for i in xrange(3):
+  for i in range(3):
     dist += (coord1[i] - coord2[i])**2.0
   dist = dist**0.5
   return dist
