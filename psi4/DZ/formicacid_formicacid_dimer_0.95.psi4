@@ -1,0 +1,29 @@
+#psi4
+#
+memory 32 gb
+
+molecule  {
+0 1
+  C        1.9047060    -0.1798760     0.0000010
+  H        2.9930900    -0.2590830    -0.0000010
+  O        1.1798480    -1.1602640     0.0000000
+  O        1.5170880     1.0770050     0.0000000
+  H        0.5236580     1.1098660     0.0000010
+--
+0 1
+  C       -1.7698816     0.1756942    -0.0000010
+  H       -2.8582716     0.2548362     0.0000000
+  O       -1.0450826     1.1561262     0.0000000
+  O       -1.3821816    -1.0811608     0.0000000
+  H       -0.3887356    -1.1139608     0.0000010
+units angstrom
+no_reorient  #important for SAPT in psi4, default
+symmetry c1  #important for SAPT in psi4, default
+}
+
+set {
+basis aug-cc-pVDZ
+scf_type DF
+freeze_core True
+}
+energy('sapt2+')

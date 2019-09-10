@@ -1,0 +1,14 @@
+benzene_H2S_dimer_0.70.psi4
+benzene_H2S_dimer_0.80.psi4
+benzene_H2S_dimer_0.90.psi4
+benzene_H2S_dimer_0.95.psi4
+benzene_H2S_dimer_1.00.psi4
+benzene_H2S_dimer_1.05.psi4
+benzene_H2S_dimer_1.10.psi4
+formamide_formamide_dimer_0.70.psi4
+formamide_formamide_dimer_0.80.psi4
+formamide_formamide_dimer_0.90.psi4
+formamide_formamide_dimer_0.95.psi4
+formamide_formamide_dimer_1.00.psi4
+formamide_formamide_dimer_1.05.psi4
+formamide_formamide_dimer_1.10.psi4
