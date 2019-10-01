@@ -1,0 +1,17 @@
+rename S22-7-dimer  178_Adenine-Thymine-BP          *
+rename S22-14-dimer 179_Benzene-Indole-PiPi           *
+rename S22-15-dimer 180_Adenine-Thymine-PiPi *
+rename S22-21-dimer 181_Benzene-Indole *
+rename S22-22-dimer 182_Phenol-Phenol-Tshaped *
+rename AcNH2-Water                     183_AcNH2-Water
+rename AcOH-Water                      184_AcOH-Water
+rename CH2Br2-Water                    185_CH2Br2-Water
+rename CH2Cl2-Water                    186_CH2Cl2-Water
+rename CH2F2-Water                     187_CH2F2-Water
+rename Cyclopentane-Cyclopentane       188_Cyclopentane-Cyclopentane
+rename Cyclopentane-Water              189_Cyclopentane-Water
+rename DimethylSulfide-DimethylSulfide 190_DimethylSulfide-DimethylSulfide
+rename Imidazole-Imidazole             191_Imidazole-Imidazole
+rename Methane-Methane                 192_Methane-Methane-CH
+rename Neopentane-Water                193_Neopentane-Water
+rename Uracil-Water                    194_Uracil-Water
