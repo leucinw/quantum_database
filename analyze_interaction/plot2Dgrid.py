@@ -25,13 +25,14 @@ def grid_2d_org(gridDim, inputNonZeroGrid, monoListName):
     ax.imshow(data, cmap=cmap, norm=norm)
     
     # draw gridlines
+    nmono = len(monoListName)
     ax.grid(which='major', axis='both', linestyle='-', color='k', linewidth=0.5)
-    ax.set_xticks(np.arange(-0.5, 46.5, 1))
-    ax.set_yticks(np.arange(-0.5, 46.5, 1))
-    for i in range(1,46+1,1):
+    ax.set_xticks(np.arange(-0.5, nmono + 0.5, 1))
+    ax.set_yticks(np.arange(-0.5, nmono + 0.5, 1))
+    for i in range(1,nmono+1,1):
       plt.text(-0.25+i-1,-1.0, str(i), fontsize=5, rotation='vertical')
       plt.text(-1.75, 0.25+i-1, str(i), fontsize=5)
-      plt.text(46.75, 0.25+i-1, (str(i)+' '+ monoListName[i-1]), fontsize=5)
+      plt.text(nmono+ 0.75, 0.25+i-1, (str(i)+' '+ monoListName[i-1]), fontsize=5)
     plt.tick_params(
     axis= 'both',      # changes apply to the x-axis
     which='both',      # both major and minor ticks are affected

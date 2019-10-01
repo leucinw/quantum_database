@@ -1,0 +1,5 @@
+mv  117_Acetamide-AcOHMinus.xyz                       117_AcNH2-AcOHMinus.xyz                 
+mv  118_MeNH3-Acetamide.xyz                           118_MeNH3-AcNH2.xyz                     
+mv  120_4_Methylimidazole-Acetamide.xyz               120_4_Methylimidazole-AcNH2.xyz         
+mv  126_Acetamide-Dimethylsulfide.xyz                 126_AcNH2-Dimethylsulfide.xyz           
+mv  128_Ethanol_Acetamide.xyz                         128_Ethanol_AcNH2.xyz                   
