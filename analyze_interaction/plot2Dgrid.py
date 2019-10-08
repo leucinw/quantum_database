@@ -41,7 +41,7 @@ def grid_2d_org(gridDim, inputNonZeroGrid, monoListName):
     bottom=False,      # ticks along the bottom edge are off
     top=False,         # ticks along the top edge are off
     labelbottom=False) # labels along the bottom edge are off
-    plt.savefig("test.png", dpi=300)
+    plt.savefig("0LatestInteraction.png", dpi=300)
     plt.show()
     return
 
