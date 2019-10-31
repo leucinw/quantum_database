@@ -1,0 +1,25 @@
+%chk=Dimethylammonium-Water.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm scrf(pcm)
+
+Optimization
+
+1 1 1 1 0 1 
+N(Fragment=1)     -0.36880     -0.82986     -0.01502
+C(Fragment=1)     -1.45066      0.18542     -0.00682
+C(Fragment=1)      0.95650     -0.27492      0.35469
+H(Fragment=1)     -0.61496     -1.59174      0.65085
+H(Fragment=1)     -0.31100     -1.25380     -0.93892
+H(Fragment=1)     -1.52661      0.58993      0.99631
+H(Fragment=1)     -1.20058      0.97070     -0.71091
+H(Fragment=1)     -2.38027     -0.29466     -0.28947
+H(Fragment=1)      1.68776     -1.07441      0.33025
+H(Fragment=1)      1.22192      0.50267     -0.35244
+H(Fragment=1)      0.88336      0.13632      1.35512
+O(Fragment=2)     -1.10073     -2.75323      1.82195
+H(Fragment=2)     -0.67269     -3.61195      1.74161
+H(Fragment=2)     -0.95424     -2.50079      2.73949
+
+
+

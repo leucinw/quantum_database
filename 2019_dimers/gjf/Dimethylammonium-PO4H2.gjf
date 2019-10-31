@@ -1,0 +1,29 @@
+%chk=Dimethylammonium-PO4H2.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm scrf(pcm)
+
+Optimization
+
+0 1 1 1 -1 1 
+N(Fragment=1)      0.04949     -1.24795      0.16118
+C(Fragment=1)     -1.18380     -0.57601      0.62716
+C(Fragment=1)      1.27542     -0.63413      0.71822
+H(Fragment=1)      0.01467     -2.27157      0.48471
+H(Fragment=1)      0.08752     -1.23583     -0.85494
+H(Fragment=1)     -1.21494     -0.67582      1.70690
+H(Fragment=1)     -1.15873      0.46913      0.33633
+H(Fragment=1)     -2.04073     -1.06893      0.18112
+H(Fragment=1)      2.13847     -1.16823      0.33588
+H(Fragment=1)      1.32132      0.41021      0.42747
+H(Fragment=1)      1.22153     -0.73334      1.79704
+P(Fragment=2)     -0.06686     -3.58254      2.64921
+O(Fragment=2)     -0.03256     -3.66726      1.13072
+O(Fragment=2)     -1.37042     -4.40082      3.17252
+O(Fragment=2)     -0.06608     -2.25343      3.32929
+O(Fragment=2)      1.19019     -4.43534      3.22918
+H(Fragment=2)     -1.56485     -5.13373      2.57759
+H(Fragment=2)      1.40925     -5.15472      2.62643
+
+
+

@@ -1,0 +1,27 @@
+%chk=Trimethylamine-Water.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm
+
+Optimization
+
+0 1 0 1 0 1 
+N(Fragment=1)     -0.28402      0.04298      0.47529
+C(Fragment=1)     -0.83197     -1.18986     -0.07067
+C(Fragment=1)     -0.98567      1.18991     -0.08504
+C(Fragment=1)      1.13993      0.13395      0.19677
+H(Fragment=1)     -1.88464     -1.26341      0.19456
+H(Fragment=1)     -0.30660     -2.04293      0.35545
+H(Fragment=1)     -0.73624     -1.23334     -1.16487
+H(Fragment=1)     -2.03984      1.13028      0.17785
+H(Fragment=1)     -0.89151      1.23143     -1.17939
+H(Fragment=1)     -0.57749      2.10675      0.33554
+H(Fragment=1)      1.54019      1.04694      0.63295
+H(Fragment=1)      1.34763      0.14330     -0.88311
+H(Fragment=1)      1.65538     -0.71666      0.63871
+O(Fragment=2)     -1.78947      0.08387      2.87215
+H(Fragment=2)     -1.10247      0.05403      2.17837
+H(Fragment=2)     -1.60161     -0.68194      3.41744
+
+
+

@@ -1,0 +1,24 @@
+%chk=Dimethylamine-Water.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm
+
+Optimization
+
+0 1 0 1 0 1 
+N(Fragment=1)     -0.52148     -0.43925      1.22457
+C(Fragment=1)     -1.44388     -0.01676      0.17658
+C(Fragment=1)      0.86781     -0.28810      0.80261
+H(Fragment=1)     -0.68077      0.11546      2.05567
+H(Fragment=1)     -1.24647      0.99683     -0.18963
+H(Fragment=1)     -2.46610     -0.06194      0.54575
+H(Fragment=1)     -1.35526     -0.70739     -0.66029
+H(Fragment=1)      1.53064     -0.53645      1.62787
+H(Fragment=1)      1.10157      0.72246      0.44974
+H(Fragment=1)      1.06182     -0.98933     -0.00724
+O(Fragment=2)     -0.57732     -3.20952      0.68588
+H(Fragment=2)     -1.45382     -3.58192      0.79509
+H(Fragment=2)     -0.64796     -2.31959      1.08100
+
+
+

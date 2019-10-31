@@ -1,0 +1,28 @@
+%chk=Dimethylamine-Acetate.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/6-31g(d) nosymm scrf(pcm)
+
+Optimization
+
+-1 1 0 1 -1 1 
+N(Fragment=1)       0.0257      -1.1316       0.2066
+C(Fragment=1)      -1.1130      -0.2280       0.2664
+C(Fragment=1)       1.2793      -0.4660       0.5339
+H(Fragment=1)      -0.1090      -1.9006       0.8786
+H(Fragment=1)      -1.2147       0.3117       1.2302
+H(Fragment=1)      -2.0413      -0.7863       0.0959
+H(Fragment=1)      -1.0358       0.5361      -0.5200
+H(Fragment=1)       2.0495      -1.2287       0.6825
+H(Fragment=1)       1.2329       0.1491       1.4561
+H(Fragment=1)       1.5911       0.2028      -0.2813
+C(Fragment=2)       0.6390      -5.1893       3.3255
+C(Fragment=2)       0.7317      -3.9648       2.3820
+O(Fragment=2)       1.8662      -3.6629       1.9307
+O(Fragment=2)      -0.3666      -3.3699       2.1587
+H(Fragment=2)      -0.1037      -5.9038       2.9496
+H(Fragment=2)       1.6026      -5.6972       3.4315
+H(Fragment=2)       0.2964      -4.8717       4.3188
+
+
+
