@@ -1,0 +1,28 @@
+%chk=Trimethylammonium-Water.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm scrf(pcm)
+
+Optimization
+
+1 1 1 1 0 1 
+N(Fragment=1)      0.02170     -0.13407     -0.65340
+C(Fragment=1)      1.09312      0.81197     -0.25546
+C(Fragment=1)      0.27230     -1.49037     -0.10736
+C(Fragment=1)     -1.31447      0.36942     -0.25099
+H(Fragment=1)      0.02962     -0.20660     -1.69287
+H(Fragment=1)      1.09077      0.90051      0.82660
+H(Fragment=1)      2.04586      0.42360     -0.59880
+H(Fragment=1)      0.89331      1.77502     -0.71245
+H(Fragment=1)      0.27045     -1.43195      0.97670
+H(Fragment=1)     -0.51505     -2.15327     -0.44949
+H(Fragment=1)      1.23609     -1.83630     -0.46517
+H(Fragment=1)     -1.46835      1.34398     -0.70145
+H(Fragment=1)     -2.06810     -0.32872     -0.59909
+H(Fragment=1)     -1.34299      0.44529      0.83174
+O(Fragment=2)     -0.03400     -0.28329     -3.40462
+H(Fragment=2)      0.81866     -0.21511     -3.84694
+H(Fragment=2)     -0.41990     -1.09150     -3.75855
+
+
+

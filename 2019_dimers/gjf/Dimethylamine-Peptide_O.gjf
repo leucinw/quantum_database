@@ -1,0 +1,33 @@
+%chk=Dimethylamine-Peptide_O.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/6-31g(d) nosymm
+
+Optimization
+
+0 1 0 1 0 1 
+N(Fragment=1)      -0.7890      -1.2720       0.4570
+C(Fragment=1)      -1.6913      -0.1430       0.2832
+C(Fragment=1)       0.5454      -1.0100      -0.0620
+H(Fragment=1)      -0.7338      -1.5137       1.4473
+H(Fragment=1)      -1.3089       0.8105       0.6970
+H(Fragment=1)      -2.6490      -0.3622       0.7671
+H(Fragment=1)      -1.8838       0.0189      -0.7857
+H(Fragment=1)       1.2004      -1.8587       0.1631
+H(Fragment=1)       1.0186      -0.0948       0.3444
+H(Fragment=1)       0.5047      -0.8988      -1.1536
+C(Fragment=2)      -1.5136      -4.3621       1.7677
+H(Fragment=2)      -2.2852      -5.1250       1.6201
+H(Fragment=2)      -0.5344      -4.8555       1.7593
+H(Fragment=2)      -1.5290      -3.6463       0.9399
+C(Fragment=2)      -1.6677      -3.5975       3.0712
+O(Fragment=2)      -1.1165      -2.5132       3.2637
+N(Fragment=2)      -2.4378      -4.2020       4.0223
+H(Fragment=2)      -2.8490      -5.0984       3.8075
+C(Fragment=2)      -2.6584      -3.6335       5.3398
+H(Fragment=2)      -2.1645      -2.6612       5.3599
+H(Fragment=2)      -3.7283      -3.4990       5.5368
+H(Fragment=2)      -2.2313      -4.2680       6.1260
+
+
+

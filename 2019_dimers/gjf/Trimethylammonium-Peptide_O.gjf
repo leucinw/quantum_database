@@ -1,0 +1,37 @@
+%chk=Trimethylammonium-Peptide_O.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm scrf(pcm)
+
+Optimization
+
+1 1 1 1 0 1 
+N(Fragment=1)      -0.0247      -0.4766      -1.1608
+C(Fragment=1)       0.8919      -1.5899      -0.7876
+C(Fragment=1)      -1.4317      -0.7773      -0.7718
+C(Fragment=1)       0.4303       0.8233      -0.5935
+H(Fragment=1)      -0.0237      -0.3981      -2.2106
+H(Fragment=1)       0.8745      -1.7108       0.2954
+H(Fragment=1)       0.5475      -2.5004      -1.2764
+H(Fragment=1)       1.8972      -1.3413      -1.1250
+H(Fragment=1)      -1.4827      -0.8797       0.3121
+H(Fragment=1)      -2.0659       0.0421      -1.1069
+H(Fragment=1)      -1.7331      -1.7047      -1.2566
+H(Fragment=1)       1.4476       1.0148      -0.9321
+H(Fragment=1)      -0.2361       1.6086      -0.9483
+H(Fragment=1)       0.3988       0.7615       0.4944
+C(Fragment=2)       1.7804       0.2704      -4.5882
+H(Fragment=2)       2.3236       0.4604      -5.5152
+H(Fragment=2)       2.2994      -0.5083      -4.0240
+H(Fragment=2)       1.7770       1.1808      -3.9838
+C(Fragment=2)       0.3555      -0.1639      -4.8183
+O(Fragment=2)      -0.4095      -0.4305      -3.8607
+N(Fragment=2)      -0.0514      -0.2478      -6.0946
+H(Fragment=2)       0.6113      -0.0214      -6.8261
+C(Fragment=2)      -1.3938      -0.6505      -6.4852
+H(Fragment=2)      -1.9630      -0.8371      -5.5769
+H(Fragment=2)      -1.8726       0.1437      -7.0614
+H(Fragment=2)      -1.3556      -1.5609      -7.0870
+
+
+

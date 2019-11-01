@@ -1,0 +1,31 @@
+%chk=Trimethylamine-PO4H2.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm scrf(pcm)
+
+Optimization
+
+-1 1 0 1 -1 1 
+N(Fragment=1)      0.31225      0.16787      0.38557
+C(Fragment=1)     -0.20587     -1.19050      0.44893
+C(Fragment=1)     -0.77262      1.07994      0.05601
+C(Fragment=1)      1.35118      0.25204     -0.62575
+H(Fragment=1)     -1.00032     -1.23683      1.19074
+H(Fragment=1)      0.59230     -1.87692      0.72888
+H(Fragment=1)     -0.61160     -1.51750     -0.52237
+H(Fragment=1)     -1.55601      0.99070      0.80564
+H(Fragment=1)     -1.20531      0.85801     -0.93317
+H(Fragment=1)     -0.40162      2.10397      0.03950
+H(Fragment=1)      1.74434      1.26658     -0.67075
+H(Fragment=1)      0.97500     -0.01557     -1.62615
+H(Fragment=1)      2.16701     -0.42510     -0.37716
+P(Fragment=2)     -3.78624     -0.29136      3.65138
+O(Fragment=2)     -2.67398     -0.20961      2.63942
+O(Fragment=2)     -3.35322     -1.37372      4.80680
+O(Fragment=2)     -5.20064     -0.60965      3.28859
+O(Fragment=2)     -3.82883      1.12324      4.48316
+H(Fragment=2)     -2.39224     -1.39881      4.86233
+H(Fragment=2)     -2.95001      1.51644      4.46760
+
+
+

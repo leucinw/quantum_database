@@ -1,0 +1,31 @@
+%chk=Trimethylamine-Acetate.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm scrf(pcm)
+
+Optimization
+
+-1 1 0 1 -1 1 
+N(Fragment=1)      0.50302      0.33962      0.24375
+C(Fragment=1)      0.10700     -0.97847      0.71661
+C(Fragment=1)     -0.68414      1.13003     -0.04411
+C(Fragment=1)      1.30398      0.20597     -0.96103
+H(Fragment=1)     -0.48835     -0.88587      1.62325
+H(Fragment=1)      0.99464     -1.57019      0.93698
+H(Fragment=1)     -0.48523     -1.52098     -0.03814
+H(Fragment=1)     -1.28782      1.23523      0.85536
+H(Fragment=1)     -1.30395      0.66458     -0.82755
+H(Fragment=1)     -0.39081      2.12028     -0.39012
+H(Fragment=1)      1.60844      1.18957     -1.31526
+H(Fragment=1)      0.74991     -0.29492     -1.77090
+H(Fragment=1)      2.19798     -0.37833     -0.74899
+C(Fragment=2)     -3.59905      0.35648      5.17856
+C(Fragment=2)     -2.67614      0.31346      3.95272
+O(Fragment=2)     -1.89124     -0.66763      3.85397
+O(Fragment=2)     -2.78793      1.28038      3.15007
+H(Fragment=2)     -4.63537      0.44167      4.85486
+H(Fragment=2)     -3.48753     -0.52516      5.80369
+H(Fragment=2)     -3.37552      1.24379      5.76991
+
+
+

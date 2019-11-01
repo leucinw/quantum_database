@@ -1,0 +1,23 @@
+%chk=Acetonitrile-MeOH.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm
+
+Optimization
+
+0 1 0 1 0 1 
+N(Fragment=1)      1.35469      0.48477      0.91416
+C(Fragment=1)     -1.09283      0.32097     -0.02152
+C(Fragment=1)      0.26992      0.38818      0.48662
+H(Fragment=1)     -1.59796     -0.55454      0.37734
+H(Fragment=1)     -1.08397      0.26305     -1.10666
+H(Fragment=1)     -1.61687      1.22076      0.29175
+O(Fragment=2)     -0.26374      3.17902      1.53903
+H(Fragment=2)      0.41659      2.54366      1.78372
+C(Fragment=2)      0.33200      4.08227      0.61924
+H(Fragment=2)     -0.44734      4.76455      0.29314
+H(Fragment=2)      1.13038      4.66649      1.07854
+H(Fragment=2)      0.73493      3.56883     -0.25576
+
+
+

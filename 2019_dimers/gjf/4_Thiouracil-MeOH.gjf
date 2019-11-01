@@ -1,0 +1,29 @@
+%chk=4_Thiouracil-MeOH.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm
+
+Optimization
+
+0 1 0 1 0 1 
+S(Fragment=1)      3.69682     -1.17656     -0.59658
+O(Fragment=1)      0.25786      2.41864     -0.48579
+N(Fragment=1)      1.77071      0.68236     -0.50431
+N(Fragment=1)     -0.44780      0.31789      0.10042
+C(Fragment=1)      0.51370      1.24286     -0.31567
+C(Fragment=1)      2.12801     -0.63956     -0.32869
+C(Fragment=1)      1.06213     -1.51313      0.09159
+C(Fragment=1)     -0.18257     -1.01307      0.28872
+H(Fragment=1)      2.50454      1.34202     -0.82200
+H(Fragment=1)     -1.37668      0.69684      0.22798
+H(Fragment=1)      1.27807     -2.56143      0.24219
+H(Fragment=1)     -1.02222     -1.62295      0.60411
+O(Fragment=2)      4.13024      1.97098     -1.35088
+H(Fragment=2)      4.45132      1.04598     -1.30932
+C(Fragment=2)      4.85185      2.73913     -0.39106
+H(Fragment=2)      4.41064      3.73873     -0.38586
+H(Fragment=2)      4.78041      2.31533      0.62065
+H(Fragment=2)      5.91247      2.82595     -0.66340
+
+
+

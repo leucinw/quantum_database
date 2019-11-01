@@ -1,0 +1,29 @@
+%chk=Acetonitrile-Peptide_N.chk
+%nproc=8
+%mem=20GB
+# opt(ModRedundant) freq mp2/cc-pVTZ nosymm
+
+Optimization
+
+0 1 0 1 0 1 
+N(Fragment=1)      1.77757     -0.13878      1.11386
+C(Fragment=1)     -0.65237     -0.07950      0.12416
+C(Fragment=1)      0.69617     -0.11275      0.67330
+H(Fragment=1)     -0.87645     -1.02594     -0.36048
+H(Fragment=1)     -0.73359      0.72168     -0.60543
+H(Fragment=1)     -1.37089      0.09079      0.92136
+C(Fragment=2)      4.28338      2.05094      2.88463
+H(Fragment=2)      3.31896      1.85990      2.42069
+H(Fragment=2)      4.77909      2.87057      2.36960
+H(Fragment=2)      4.13617      2.35501      3.91838
+C(Fragment=2)      5.20030      0.84828      2.86492
+O(Fragment=2)      6.32727      0.89013      3.34697
+N(Fragment=2)      4.67279     -0.25588      2.27798
+H(Fragment=2)      3.73738     -0.20795      1.90509
+C(Fragment=2)      5.41640     -1.48935      2.17582
+H(Fragment=2)      6.38555     -1.32298      2.63619
+H(Fragment=2)      4.90900     -2.30002      2.69718
+H(Fragment=2)      5.56133     -1.77767      1.13546
+
+
+
